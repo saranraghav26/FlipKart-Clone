@@ -1,0 +1,141 @@
+<html lang="en"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/png" href="logo.ico"> 
+    <title>Main Page</title> 
+</head> 
+<body> 
+    <link rel="stylesheet" href="a.css"> 
+    <script src="script.js"></script>
+    <div class="a"> 
+        <div class="h"> 
+            <img src="logo.jpeg" alt="Flipkart Logo" class="logo"> 
+            <h1>Flipkart Clone</h1> 
+        </div> 
+        <div class="one"> 
+            <a href="ex2.html">Home |</a> 
+            <a href="product.html">Products |</a> 
+            <a href="contact.html">Contact |</a> 
+            <a 
+                href="https://www.flipkart.com/?affid=affveve&affExtParam1=60827&affExtParam2=fb0be
+8bcc31b013f004e174cd85cbf15">Original</a> 
+        </div> 
+    </div> 
+    <nav> 
+        <nav class="three"> 
+            <input type="search" id="ui" placeholder="Search for products"> 
+            <button type="submit" onclick="searching()">Find</button> 
+        </nav> 
+ 
+ 
+        <center> 
+        <h2>Level Up Your Style with our stunning Collections</h2><br> 
+        </center> 
+        <div class="abc"> 
+            <span> 
+            </span>  
+            <img src="fash1.jpg"> 
+             
+            <img src="faso.jpg" alt=""> 
+        </div> 
+        <center> 
+        <a 
+href="https://www.flipkart.com/?affid=affveve&affExtParam1=60827&affExtParam2=fb0be8bcc31b0
+13f004e174cd85cbf15"><button 
+                    type="button">Shop Now</button></a> 
+                    </center> 
+        <nav class="two"> 
+            <nav> 
+ 
+                <a 
+href="https://www.flipkart.com/?affid=affveve&affExtParam1=60827&affExtParam2=fb0be8bcc31b0
+13f004e174cd85cbf15"><img 
+                        src="device.png" alt=""></a> 
+                    <h3>Devices</h3> 
+            </nav> 
+            <nav> 
+                <a 
+href="https://www.flipkart.com/?affid=affveve&affExtParam1=60827&affExtParam2=fb0be8bcc31b0
+13f004e174cd85cbf15"><img src="dress.png" alt=""></a> 
+                <h3>Dress</h3> 
+            </nav> 
+            <nav> 
+ 
+ 
+                <a 
+href="https://www.flipkart.com/?affid=affveve&affExtParam1=60827&affExtParam2=fb0be8bcc31b0
+13f004e174cd85cbf15"><img src="usb.png" alt=""></a> 
+                <h3>Electronics</h3> 
+            </nav> 
+            <nav> 
+                <a 
+href="https://www.flipkart.com/?affid=affveve&affExtParam1=60827&affExtParam2=fb0be8bcc31b0
+13f004e174cd85cbf15"><img src="lig.png" alt=""></a> 
+                <h3>Decoration</h3> 
+            </nav> 
+            <nav> 
+                <h3>shirts</h3> 
+                <img src="shirt.jpg"><br> 
+                <a href="https://www.flipkart.com/clothing-and
+accessories/topwear/pr?sid=clo%2Cash&otracker=categorytree&p%5B%5D=facets.ideal_for%255B%
+255D%3DMen&otracker=nmenu_sub_Men_0_Top%20wear&fm=neo%2Fmerchandising&iid=M_f2d
+79e7c-a12f-43f8-8966
+f594eaef90f9_1_X1NCR146KC29_MC.7L18CTHMHJZ4&cid=7L18CTHMHJZ4">Check Now</a> 
+                     
+            </nav> 
+            <nav> 
+                <h3>Pants</h3> 
+                <img src="pant.jpg"><br> 
+                <a href="https://www.flipkart.com/clothing-and
+accessories/bottomwear/pr?sid=clo,vua&p[]=facets.ideal_for%255B%255D%3DMen&p[]=facets.idea
+l_for%255B%255D%3Dmen&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_05c7c0f1
+65e5-462e-bf17-7f1ecf02edb0_1_X1NCR146KC29_MC.VYPCNOF36AXL&cid=VYPCNOF36AXL">Check 
+Now</a> 
+            </nav> 
+            <nav> 
+                <h3>Mobile</h3> 
+                <img src="mobile.jpg"><br> 
+                <a href="https://www.flipkart.com/search?q=mobiles&as=on&as
+show=on&otracker=AS_Query_TrendingAutoSuggest_1_0_na_na_na&otracker1=AS_Query_Trendin
+gAutoSuggest_1_0_na_na_na&as-pos=1&as
+ 
+ 
+type=TRENDING&suggestionId=mobiles&requestId=163b7c43-4143-4bbe-9ce2
+0684bdc9d307">Check Now</a> 
+            </nav> 
+            <nav> 
+                <h3>Furniture</h3> 
+                <img src="sofa.jpg"><br> 
+                <a href="https://www.flipkart.com/search?q=furniture+home&sid=wwe%2Cfc3&as=on&as
+show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore
+_OrganicAutoSuggest_1_3_na_na_na&as-pos=1&as
+type=RECENT&suggestionId=furniture+home%7CWardrobes+%26+More&requestId=2293036e-56f6
+4ab8-bc02-d61ee5a55831&as-backfill=on">Check Now</a> 
+            </nav> 
+        </nav> 
+    </nav> 
+    <div class="fo"> 
+        <div class="four"> 
+            <hr> 
+            <h3>Group Companies :</h3> 
+            <ul> 
+                <li><a href="https://www.myntra.com/">Myntra</a></li> 
+                <li><a href="https://www.cleartrip.com/">Cleartrip</a></li> 
+                <li><a href="https://www.shopsy.in/">Shopsy</a></li> 
+            </ul> 
+        </div> 
+        <div class="fi"> 
+            <hr> 
+            <address> 
+                <h4> 
+                    Registered Office:<br> 
+                    Flipkart Internet Private Limited,<br> 
+                    Bengaluru, Karnataka, India 
+                </h4> 
+            </address> 
+</div> 
+</div> 
+</body> 
+</html>
