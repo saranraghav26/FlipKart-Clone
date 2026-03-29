@@ -1,0 +1,129 @@
+.a { 
+padding: 15px 30px; 
+} 
+div,nav{ 
+background-attachment: fixed; 
+background-image: url(gbu.jpg);    
+background-size: cover;          
+background-position: center; 
+} 
+.h{ 
+display: flex; 
+align-items: center; 
+padding-left: 4px; 
+} 
+.logo{ 
+width: 40px; 
+height: 40px; 
+border-radius: 50%; 
+} 
+h1 { 
+font-size: 28px; 
+} 
+.one { 
+text-align: left; 
+margin-top: 10px; 
+} 
+.one a { 
+color: white; 
+text-decoration: none; 
+margin-left: 10px; 
+font-weight: 500; 
+} 
+.three { 
+display: flex; 
+justify-content: center; 
+margin: 30px ; 
+} 
+.three input { 
+height: 40px; 
+width: 420px; 
+padding: 0 14px; 
+font-size: 16px; 
+border-radius: 4px 0 0 4px; 
+} 
+.three button { 
+height: 40px; 
+width: 60px; 
+border: none; 
+cursor: pointer; 
+background-color: #2874f0; 
+color: white; 
+font-size: 18px; 
+border-radius: 0 4px 4px 0; 
+} 
+.abc { 
+text-align: center; 
+justify-content: center; 
+display: flex; 
+flex-wrap: wrap; 
+} 
+.abc img { 
+margin: 15px; 
+border: 3px black solid; 
+width: 200px; 
+height: 200px; 
+} 
+.abc div{ 
+border: 3px black solid; 
+} 
+button { 
+padding: 5px; 
+height: 60px; 
+width: 100px; 
+cursor: pointer; 
+background-color: #2874f0; 
+color: white; 
+font-size: 18px; 
+font-style: italic; 
+border-radius: 0 4px 4px 0; 
+} 
+.two { 
+display: flex; 
+justify-content: center; 
+flex-wrap: wrap;   
+gap: 20px; 
+padding: 30px; 
+} 
+.two nav { 
+width: 200px; 
+border: 3px solid black; 
+padding: 10px; 
+text-align: center; 
+} 
+.two img { 
+position: relative; 
+width: 150px; 
+height: 150px; 
+padding-bottom: 30px; 
+} 
+.fo { 
+display: flex; 
+justify-content: space-between; 
+gap: 40px; 
+padding: 30px; 
+} 
+.four,.fi { 
+width: 50%; 
+} 
+.four ul { 
+list-style: none; 
+padding-top: 10px; 
+} 
+.four li { 
+margin: 6px 0; 
+} 
+.four a { 
+text-decoration: none; 
+color: black; 
+font-weight: 500; 
+} 
+.fi h4 { 
+line-height: 1.6; 
+} 
+button { 
+padding: 6px 10px; 
+} 
+.three{ 
+padding-top: 18px; 
+}

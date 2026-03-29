@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link rel="stylesheet" href="p1.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div>
+        <div class="c">
+            <img src="logo.jpeg">
+            <h1>FlipKart Products</h1>
+        </div>
+
+        <div class="ab">
+            <a href="ex2.html">Home |</a>
+            <a href="contact.html">Contact |</a>
+            <a href="https://www.flipkart.com/">Original</a>
+        </div>
+    </div>
+
+    <!-- SIMPLE SEARCH -->
+    <center>
+        <input type="search" id="searchin" placeholder="Search product">
+        <button id="searchBtn" onclick="con()">Search</button>
+    </center>
+
+    <!-- CATEGORY -->
+    <div class="t">
+        <form>
+            <table>
+                <tr>
+                    <td>Products Category</td>
+                    <td>
+                        <select id="category">
+                            <option value="">Select</option>
+                            <option value="https://www.myntra.com/">Dress</option>
+                            <option value="https://www.flipkart.com/search?q=mobiles">Mobile</option>
+                        </select>
+                    </td>
+                    <td>
+                        <button type="button" onclick="goCategory()">Go</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <!-- PRODUCTS -->
+    <nav class="two">
+
+        <nav>
+            <img src="suit.jpg">
+            <h3>Suit</h3>
+            <p>Price: ₹390</p>
+        </nav>
+
+        <nav>
+            <img src="fo.jpg">
+            <h3>Formal Wear</h3>
+            <p>Price: ₹200</p>
+        </nav>
+
+        <nav>
+            <img src="sal.jpg">
+            <h3>Salvar Wear</h3>
+            <p>Price: ₹190</p>
+        </nav>
+
+        <nav>
+            <img src="par.jpg">
+            <h3>Party Wear</h3>
+            <p>Price: ₹90</p>
+        </nav>
+
+        <nav>
+            <img src="ts1.jpg">
+            <h3>Men Casual Shirt</h3>
+            <p>Price: ₹999</p>
+        </nav>
+
+        <nav>
+            <img src="ts2.jpg">
+            <h3>Men Casual Wear</h3>
+            <p>Price: ₹299</p>
+        </nav>
+
+        <nav>
+            <img src="sp1.jpg">
+            <h3>Men Sports Wear</h3>
+            <p>Price: ₹199</p>
+        </nav>
+
+        <nav>
+            <img src="sp2.jpg">
+            <h3>Men Sports Wear</h3>
+            <p>Price: ₹399</p>
+        </nav>
+
+    </nav>
+    <script>
+        function con() {
+
+            let value = document.getElementById("searchin").value;
+
+            if (value === "") {
+                alert("Please enter something");
+            } else {
+                alert("The Product " + value+ " searching");
+            }
+        };
+        function goCategory() {
+            let select = document.getElementById("category");
+            let link = select.value;
+
+            if (link) {
+                window.location.href = link;
+            } else {
+                alert("Select a category");
+            }
+        }
+
+    </script>
+
+</body>
+</html>

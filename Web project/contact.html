@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Contact Us</title> 
+    <link rel="stylesheet" href="conc.css"> 
+</head> 
+<body> 
+    <div class="one"> 
+        <h1>Contact Us </h1> 
+        <div class="ab"> 
+            <a href="ex2.html">        Home |</a> 
+            <a href="product.html">Products |</a> 
+            <a href="https://www.flipkart.com/">Original</a> 
+        </div> 
+    </div> 
+    <div class="two"> 
+        <h2>User Details</h2> 
+        <form onsubmit="return validateForm()"> 
+            <p>Name :</p><br> 
+            <input type="text" placeholder="Enter your name" id="n"><br><br> 
+            <p>Email :</p><br> 
+            <input type="email" placeholder="Enter your email" id="e"><br><br> 
+            <p>Message :</p><br> 
+            <input type="text" placeholder="Enter your message" id="m"><br><br> 
+            <button type="submit">Submit</button> 
+        </form> 
+    </div> 
+    <script>
+function validateForm() {
+
+    let name = document.getElementById("n").value;
+    let email = document.getElementById("e").value;
+    let message = document.getElementById("m").value;
+
+    let namePattern = /^[A-Za-z ]{3,}$/;
+
+    if (!namePattern.test(name)) {
+        alert("Invalid Name");
+        return false;
+    }
+
+    let emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+    if (!emailPattern.test(email)) {
+        alert("Invalid Email");
+        return false;
+    }
+
+    if (message.length < 5) {
+        alert("Message too short");
+        return false;
+    }
+    alert("Form submitted successfully!");
+    return true;
+}
+</script>
+</body> 
+</html> 

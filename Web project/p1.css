@@ -1,0 +1,61 @@
+div{ 
+background-color:rgb(0, 183, 255) ; 
+margin-bottom: 10px; 
+} 
+h1{ 
+padding-top: 20px; 
+color: rgb(245, 220, 1); 
+font-size: 28px; 
+} 
+.t,tr,td{ 
+padding: 10px; 
+} 
+div,nav{ 
+background-attachment: fixed; 
+background-image: url(gbu.jpg);    
+background-size: cover;          
+background-position: center;     
+} 
+.c{ 
+display: flex; 
+align-items: center; 
+padding-left: 4px; 
+} 
+.c img{ 
+margin-top: 25px; 
+padding: 10px; 
+width: 30px; 
+height: 30px; 
+} 
+.two,tr,td{ 
+text-align: right; 
+} 
+.ab{ 
+text-align: left; 
+padding-right: 5px; 
+color: white; 
+} 
+.ab a{ 
+color: white; 
+text-decoration: none; 
+margin-left: 10px; 
+} 
+.two nav{ 
+background-color: bisque; 
+width: 200px; 
+margin: 10px; 
+padding: 10px; 
+display: inline-block; 
+border-width: 3px; 
+border-style: solid; 
+} 
+.two{ 
+justify-content: space-around; 
+text-align: center; 
+background-color:rgb(0, 255, 234); 
+padding-bottom: 50px; 
+} 
+img{ 
+height: 200px; 
+width: 200px; 
+} 
